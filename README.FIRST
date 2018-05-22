@@ -1,0 +1,10 @@
+Ahab's Whale
+------------
+
+1. Cat is just a file cat
+2. doit.sh runs a confidence test before generating sample data
+3. -r will go the other way with most filters
+4. LookupFilter turns text into triplet sequence, at the moment with random assigned triplets
+5. CutFilter snips the triplet sequence into random sized segments
+6. ShuffleFilter and FastqShuffleFilter will randomize the sequence
+7. Test Fastq by running FastqShuffleFilter -seq so there is no randomizing then -r to reverse it.
